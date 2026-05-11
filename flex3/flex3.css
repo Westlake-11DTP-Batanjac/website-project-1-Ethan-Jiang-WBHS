@@ -14,6 +14,13 @@ body {
 
 } 
 
+.bold { 
+
+    font-weight: bold; 
+    color: black;
+
+}
+
 .p1 { 
 
     font-size: 15px;
@@ -26,6 +33,12 @@ body {
     color: white;
 
 }
+.center { 
+
+    display: flex;
+    align-items: center;
+
+}
 
 header { 
 
@@ -33,6 +46,7 @@ header {
     display: flex;
     flex-direction: row;;
     padding: 15px 30px; 
+    align-items: center;
 
 } 
 
@@ -46,4 +60,69 @@ header {
     justify-content: center;
     align-items: center;
 
+}
+
+nav { 
+    display: flex;
+    background-color: #a442a4;
+    justify-content: center;  
+} 
+
+main { 
+    display: flex;
+    background-color: #e0e0e0;
+    justify-content: center;  
+    align-items: center;
+    height: 500px;
+}
+
+.div1 { 
+    display: flex;
+    background-color: #AC9E9E;
+    width: 300px;
+    height: 350px;
+    margin-right: 200px;
+
+}
+
+.div2 { 
+    display: flex;
+    background-color: #B7B7B7;
+    width: 200px;
+    height: 200px;
+    justify-content: center;  
+    align-items: center;
+
+}
+
+footer { 
+    display: flex;
+    background-color: #B783FF;
+    justify-content: center;  
+    align-items: center;
+    height: 150px;
+    flex-direction: column;
+
+}
+
+.div3 { 
+    display: flex;
+    background-color: #D9D9D9;
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    justify-content: center;  
+    align-items: center;
+
+}
+
+.ok { 
+
+    margin-left: 20px;
+
+}
+
+.wow { 
+
+    margin-left: 50px;
 }
