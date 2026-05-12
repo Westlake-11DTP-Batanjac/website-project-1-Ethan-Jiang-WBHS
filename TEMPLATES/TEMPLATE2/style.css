@@ -134,10 +134,10 @@ a {
     background-color: #21130A;
 }
 
-h1 {
+.maintitle {
     margin-top: -5px;
     font-family: Helvetica;
-    font-size: 50px;
+    font-size: 80px;
     font-style: bold;
     text-decoration: none;
 }
@@ -147,17 +147,6 @@ h1 {
     width: 80%;
 }
 
-.Image1 {
-    width: 500px;
-    height: 500px;
 
-}
 
-.body1 {
-    display: flex;
-    flex-flow: row nowrap;
-}
 
-.bodytext {
-    transform: rotate(270deg);
-}
