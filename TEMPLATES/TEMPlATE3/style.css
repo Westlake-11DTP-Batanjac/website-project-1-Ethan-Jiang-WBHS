@@ -1,0 +1,93 @@
+.pagecontainer {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #00A5A6;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: #00A5A6;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.main{
+    height: 2vh;
+}
+footer{
+
+}
+
+.HeroImage {
+    Width: auto;
+    height: 905.5px; 
+}
+header img{
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;z
+}
+
+.DropdownBtn {
+  background-color: #00A5A6;
+  color: white;
+  padding: 22.5px;
+  font-size: 27.5px;
+  border: none;
+  cursor: pointer;
+}
+
+.Dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.DropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.DropdownContent a {
+  color: #00A5A6;
+  padding: 20px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  font-family: "national 2", "Helvetica", arial, sans-serif;
+}
+
+.DropdownContent a:hover {background-color: #ddd;}
+
+.Dropdown:hover .DropdownContent {display: block;}
+
+.Dropdown:hover .DropdownBtn {background-color: #00A5A6;}
+
+.Main {
+    background-color: #00A5A6;
+}
+
+h1 {
+    font-family: "national 2", "Helvetica", arial, sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-left: 10px;
+}
+
+.p1 {
+    font-family: "national 2", "Helvetica", arial, sans-serif;
+    font-size: 27px;
+    color: white;
+    margin-left: 10px;
+}
+
+p {
+     font-family: "national 2", "Helvetica", arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-left: 10px;
+}
+
