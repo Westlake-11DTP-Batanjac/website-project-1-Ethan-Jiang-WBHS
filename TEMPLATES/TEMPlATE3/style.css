@@ -11,12 +11,24 @@ header{
     position: sticky;
     top: 0;
 }
-.main{
-    height: 2vh;
+main p{
+    margin-left: 100px;
+}
+
+main h1{
+    margin-left: 100px;
 }
 footer{
-
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
+
+footer hr {
+    width: 90%;
+}
+
+
 
 .HeroImage {
     Width: auto;
@@ -81,13 +93,46 @@ h1 {
     font-family: "national 2", "Helvetica", arial, sans-serif;
     font-size: 27px;
     color: white;
-    margin-left: 10px;
+    margin-left: 100px;
 }
 
 p {
      font-family: "national 2", "Helvetica", arial, sans-serif;
     font-size: 16px;
     color: white;
+    margin-left: 10px;
+}
+
+.buttons{
+    margin-left: 100px;
+}
+
+main button{
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: #192E49;
+    border: 3px solid white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.btn2{
+    background-color:#00A5A6;
+    border: 3px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
     margin-left: 10px;
 }
 
