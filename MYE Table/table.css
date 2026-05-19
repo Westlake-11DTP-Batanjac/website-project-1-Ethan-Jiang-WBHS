@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 200px;
+    font-size: 25px;
+}
+th {
+    border: 3px solid black;
+}
+td {
+    border: 3px solid black;
+}
+td:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+th:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+}
