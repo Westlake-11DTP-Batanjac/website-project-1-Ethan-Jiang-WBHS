@@ -3,6 +3,7 @@ body {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+
 }
 table {
     border: 3px solid black;
@@ -19,9 +20,21 @@ td {
 td:hover {
     cursor: pointer;
     background-color: greenyellow;
+    font-weight: bolder;
 }
 
-th:hover {
-    cursor: pointer;
-    background-color: greenyellow;
+td:active{
+    scale: 750%;
 }
+
+tr:hover {
+    cursor: pointer;
+    background-color: grey;
+    
+}
+
+
+h1:active{
+    scale: 500%;
+}
+
