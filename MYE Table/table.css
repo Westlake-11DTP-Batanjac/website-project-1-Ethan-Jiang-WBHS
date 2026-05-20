@@ -38,3 +38,19 @@ h1:active{
     scale: 500%;
 }
 
+button{
+    margin-top: 100px;
+    background-color: rgb(255, 64, 64);
+    scale: 150%;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: #ff5757;
+}
+button:active{
+    transform: rotate(10deg);
+}
+button:focus{
+    scale: 750%
+}
+
