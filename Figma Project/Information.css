@@ -5,14 +5,14 @@
 
 main {
     
-    height: 2500px;
+    height: fit-content;
     flex-flow: column nowrap;
-    background-color: #272727;
+    background-color: white;
 }
 
 .main {
     height: fit-content;
-    background-color: #272727;
+    background-color: white;
 }
 
 header{
@@ -25,17 +25,7 @@ header{
     z-index: 3;
 }
 
-.stars {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
-    margin-top: 300px;
-    width: 100%;
-    z-index: 0;
-    
-}
+
 
 .main span {
     color: white;
@@ -43,9 +33,6 @@ header{
     z-index: -1;
 }
 
-.star:active {
-    color: gold;
-}
 
 .column1 {
     display: flex;
@@ -113,7 +100,7 @@ a {
 
 .main h1{
     font-size: 90px;
-    color:white;
+    color:black;
     font-family: Arial, sans-serif;
     font-weight: normal;
 }
@@ -133,7 +120,7 @@ a {
 }
 
 .block {
-    background-color: #1E1F86;
+    background-color: #667CC4;
     height: 100px;
     width: 100%;
     z-index: 2;
@@ -187,39 +174,6 @@ header a p {
     font-weight: bold;
     margin-left: 10px;
 }
-
-.star-rating {
-        direction: rtl; /* Right-to-left for easier CSS handling */
-        display: inline-flex;
-        font-size: 2rem;
-        cursor: pointer;
-        z-index: 1;
-    }
-
-
-    .star {
-        color: lightgray;
-        transition: color 0.2s;
-    }
-
-    .star:hover,
-    .star:hover ~ .star {
-        color: gold;
-    }
-
-    .star.selected {
-        color: gold;
-    }
-
-    main p:hover {
-        text-decoration: underline;
-        cursor: pointer;
-    }
-
-    header p:hover {
-        text-decoration: underline;
-        cursor: pointer;
-    }
 
 
 
