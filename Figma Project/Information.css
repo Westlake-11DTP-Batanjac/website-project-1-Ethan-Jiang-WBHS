@@ -10,10 +10,7 @@ main {
     background-color: white;
 }
 
-.main {
-    height: fit-content;
-    background-color: white;
-}
+
 
 header{
     display: flex;
@@ -27,13 +24,6 @@ header{
 
 
 
-.main span {
-    color: white;
-    font-size: 200px;
-    z-index: -1;
-}
-
-
 .column1 {
     display: flex;
     flex-flow: row nowrap;
@@ -45,11 +35,6 @@ header{
     margin-left: 1375px;
 }
 
-
-.main img {
-    width: 1881px;
-    height: 1080px;
-}
 
 .navlinks {
     display: flex;
@@ -94,16 +79,9 @@ a {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    justify-content: space-between;
-    height: 300px;
+    height: fit-content
 }
 
-.main h1{
-    font-size: 90px;
-    color:black;
-    font-family: Arial, sans-serif;
-    font-weight: normal;
-}
 
 .main p {
     font-size: 30px;
@@ -113,7 +91,12 @@ a {
     justify-content: center;
 }
 
-.main hr{
+.main hr {
+    width: 60%;
+    height: 1px;
+    background-color: white;
+}
+hr{
     width: 60%;
     height: 1px;
     background-color: white;
@@ -154,7 +137,7 @@ footer {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    background-color:#1E1F86;
+    background-color:#667CC4;
     text-align: center;
 
 }
@@ -174,6 +157,80 @@ header a p {
     font-weight: bold;
     margin-left: 10px;
 }
+
+.Image1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    margin-top: 100px ;
+    margin-bottom: 100px;
+}
+
+.main h1{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+    font-size: 80px;
+    color:black;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 80px;
+    color:black;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
+
+.Container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly ;
+    margin-bottom: 100px;
+}
+
+.Box {
+    display: flex;
+    background-color: #667CC4;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Box h1{
+    font-size: 50px;
+    color: white;
+}
+
+.Box p{
+    
+    font-size: 25px;
+}
+
+.Box2 {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
 
 
 

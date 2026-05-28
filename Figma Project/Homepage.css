@@ -5,7 +5,7 @@
 
 main {
     
-    height: 2500px;
+    height: 3000px;
     flex-flow: column nowrap;
     background-color: #272727;
 }
@@ -220,6 +220,42 @@ header a p {
         text-decoration: underline;
         cursor: pointer;
     }
+.Box {
+    display: flex;
+    background-color: white;
+    width: 500px;
+    height: 150px;
+    border-radius: 20px;
+    color: black;
+    border: 1px solid black;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.Container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly ;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
 
+.Box p{
+    color: black;
+    font-size: 25px;
+}
 
+.Box div {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    justify-content: space-between;
+}
